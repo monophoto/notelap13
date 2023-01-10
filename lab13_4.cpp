@@ -2,7 +2,7 @@
 #include<string>
 
 using namespace std;
-
+ 
 template <typename T>
 void mySwap(T &, T &);
 
@@ -32,7 +32,7 @@ int main(){
 	cout << "p = " << p << ", q = " << q << "\n";
 
 	return 0;
-}
+} 
 
 template <typename Type>
 void mySwap(Type &x, Type &y){
